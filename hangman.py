@@ -1,7 +1,7 @@
 import random
 import hangman_stages
 import word_file
-print("\t\t\tWozzah, Welcome folks to Hangman!!")
+print("\t\tWozzah, Welcome folks to Hangman!!")
 lives = 6
 chosen_one = random.choice(word_file.words)
 print(chosen_one)
