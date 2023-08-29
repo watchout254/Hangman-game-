@@ -1,6 +1,7 @@
 import random
 import hangman_stages
 import word_file
+import sys
 print("\t\tWozzah, Welcome folks to Hangman!!")
 lives = 6
 chosen_one = random.choice(word_file.words)
@@ -31,6 +32,7 @@ while not gameover:
             gameover = True
             print("You win")
         print(hangman_stages.stages[lives])
+
 
 
 
